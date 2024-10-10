@@ -1,0 +1,12 @@
+#!/bin/bash
+# Universal Console Script
+
+if [[ "$OSTYPE" == "linux-gnu"* || "$OSTYPE" == "darwin"* ]]; then
+    # Linux or macOS
+    php console.php "$@"
+elif [[ "$OSTYPE" == "msys"* || "$OSTYPE" == "win32" || "$OSTYPE" == "cygwin" ]]; then
+    # Windows (Git Bash or Command Prompt or PowerShell)
+    php console.php "$@"
+else
+    echo "Unsupported OS. This script only works on Linux, macOS, or Windows."
+fi

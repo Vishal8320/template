@@ -1,0 +1,171 @@
+
+    /*======================
+        Error page
+    =======================*/
+
+
+    .page_error{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+      margin-top: 20px;
+      }
+      
+      .page_error  img{ width:100%;}
+      
+      .four_zero_four_bg{ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+      height: 400px;
+      background-repeat: no-repeat;
+      /* background-size: cover;  */
+      background-position: center;
+      }
+      
+      
+      .four_zero_four_bg h1{
+      font-size:80px;
+      }
+      
+      .four_zero_four_bg h3{
+      font-size:80px;
+      }
+      
+      .link_error {
+      color: #fff!important;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background: #797575;
+      margin: 20px 0;
+      display: inline-block;
+      }
+      .contant_box_error{ margin-top:-50px;}
+    /*======================
+        Error page Ended
+    =======================*/
+
+
+.error-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+}
+.info-msg {
+  color: #059;
+  background-color: #BEF;
+}
+.success-msg {
+  color: #270;
+  background-color: #DFF2BF;
+  font-size: 17px;
+}
+.warning-msg {
+  color: #9F6000;
+  background-color: #FEEFB3;
+  font-size: 17px;
+}
+.error-msg {
+  color: #D8000C;
+  background-color: #FFBABA;
+  font-size: 17px;
+}
+/* CSS FOR LOADING BAR */
+#loading-bar {
+  position: fixed;
+  z-index: 2147483647;
+  top: 0;
+  left: -6px;
+  width: 0;
+  height: 3px;
+  background: #ff1201;;
+  border-radius: 1px;
+  -moz-transition: width 500ms ease-out,opacity 400ms linear;
+  -ms-transition: width 500ms ease-out,opacity 400ms linear;
+  -o-transition: width 500ms ease-out,opacity 400ms linear;
+  -webkit-transition: width 500ms ease-out,opacity 400ms linear;
+  transition: width 500ms ease-out,opacity 400ms linear;
+  }
+  #loading-bar dd, dt {
+  position: absolute;
+  box-shadow: #E8EBED 1px 0 6px 1px;
+  }
+  #loading-bar dd {
+  opacity: .6;
+  width: 20px;
+  right: 0;
+  clip: rect(-6px,22px,14px,10px);
+  }
+  #loading-bar dt {
+  opacity: .6;
+  width: 180px;
+  right: -80px;
+  clip: rect(-6px,90px,14px,-6px);
+  }
+/* CSS FOR LOADING BAR ENDED */
+
+
+
+.section-block h6 {
+  color: red;
+}
+.btn-custom-blue {
+  background-color: #205eba !important;
+  color: white !important;
+}
+.btn-custom-blue:hover {
+  background-color: #68a4fd !important;
+  color: white;
+}
+.btn-custom-green {
+  background-color: #198754 !important; 
+  color: white !important;
+}
+.btn-custom-green:hover {
+  background-color: #6e9f88 !important;
+  color: white;
+}
+.centered-button {
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pointer{
+  cursor: pointer;
+}
+.cursor-default{
+  cursor: default;
+}
+.d-none{
+  display: none;
+}
+.d-block{
+  display: block;
+}
+.text-unselect {
+  user-select: none;
+}
+
+.dd-bg{
+  background: #0866ff21;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-device-width: 1002px), only screen and (device-width: 1024px) and (device-height: 1002px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 1002px), only screen and (max-width: 1002px) {
+
+
+
+}
+
+
+/* ------------------- !MOBILE ----------------------- */
+@media only screen and (max-device-width: 768px), only screen and (device-width: 768px) and (device-height: 768px), only screen and (width: 768px) and (orientation: landscape), only screen and (device-width: 768px), only screen and (max-width: 768px) {
+
+  body {
+  image-rendering: inherit;
+  }
+}
+
+
+@media (min-width: 530px) {
+
+}
+@media only screen and (max-device-width: 360px), only screen and (device-width: 360px) and (device-height: 360px), only screen and (width: 360px) and (orientation: landscape), only screen and (device-width: 360px), only screen and (max-width: 360px) {
+  
+}
